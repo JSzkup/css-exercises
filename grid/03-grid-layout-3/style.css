@@ -50,8 +50,6 @@ ul {
 }
 
 .menu ul {
-  /* grid-column: 2 / -1; */
-
   display: grid;
 
   grid-template-columns: repeat(4, 1fr);
@@ -91,7 +89,10 @@ ul {
 }
 
 .nav ul {
+  grid-column: 1 / -1;
+
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
