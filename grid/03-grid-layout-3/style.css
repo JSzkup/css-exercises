@@ -24,8 +24,6 @@ ul {
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-
-
 }
 
 .header {
@@ -35,13 +33,10 @@ ul {
   grid-row: 1 / 2;
 
   display: grid;
-  grid-template-columns: 3fr repeat(4, 1fr);
-}
+  grid-template-columns: 1fr 4fr;
 
-.menu {
-  display: grid;
+  align-items: center;
 
-  grid-column: 2 / -1;
 }
 
 .menu ul,
@@ -51,7 +46,6 @@ ul {
 
 .menu ul {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -71,6 +65,9 @@ ul {
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+
+  display: grid;
+  align-items: center;
 }
 
 
@@ -79,6 +76,10 @@ ul {
   color: black;
   font-size: 16px;
   font-weight: normal;
+
+  display: grid;
+  align-items: center;
+
 }
 
 .nav {
