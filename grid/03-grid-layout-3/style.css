@@ -36,7 +36,6 @@ ul {
   grid-template-columns: 1fr 4fr;
 
   align-items: center;
-
 }
 
 .menu ul,
@@ -79,7 +78,6 @@ ul {
 
   display: grid;
   align-items: center;
-
 }
 
 .nav {
@@ -126,7 +124,6 @@ ul {
   text-align: center;
 
   height: 200px;
-
 }
 
 .card p {
@@ -150,6 +147,4 @@ ul {
 .footer p {
   font-size: 13px;
   font-weight: normal;
-
-
 }
